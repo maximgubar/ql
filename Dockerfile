@@ -34,6 +34,6 @@ RUN ./steamcmd.sh +login anonymous \
     +quit || true
 
 # --- runtime ---
--- WORKDIR /app
--- COPY start.sh /start.sh
--- RUN chmod +x /start.sh
+# -- WORKDIR /app
+# -- COPY start.sh /start.sh
+# -- RUN chmod +x /start.sh
